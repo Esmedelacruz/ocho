@@ -3,7 +3,7 @@ $(document).ready(function(e){
    // watchID se refiere a la aceleracion 'actual'
 
    var watchID = null;
-   document.adaEventListener("deviceready", Dispositivo_Listo, false);
+   document.addEventListener("deviceready", Dispositivo_Listo, false);
 
    //Cuando esta listo el dispositivo
    function Dispositivo_Listo() {
